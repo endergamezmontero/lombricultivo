@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>INVERNADERO</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<h1>CONTROL DE VARIABLES DEL INVERNADERO</h1>
+<div class = "container">
+	<div class = "formatos">
+		<div class = "formato">
+			<h3>Temperatura:</h3>
+			<input type="text" id="temp">
+		</div>
+		<div class = "formato">
+			<h3>Humedad:</h3>
+			<input type="text" id="hume">
+		</div>
+		<div class = "formato">
+			<h3>pH:</h3>
+			<input type="text" id="pH">
+		</div>
+	</div>
+	<h3>Reporte escrito:</h3>
+	<input type="text" id="texto">
+	<label for="language">Choose a language:</label>
+	<select id="language"><option value="en-US">English (United States)</option>
+		<option value="en-GB">English (United Kingdom)</option>
+		<option value="es-ES">Spanish (Spain)</option>
+		<option value="fr-FR">French (France)</option>
+		<option value="de-DE">German (Germany)</option>
+	</select>
+	
+	<div class="buttons">
+		<button id="datos">Leer Datos</button>
+		<button id="hablar">Reporte</button>
+		<button id="actualizar">Actualizar</button>
+		<button id="dato">Read Data</button>
+		<button id="traducir">Report</button>
+	</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
